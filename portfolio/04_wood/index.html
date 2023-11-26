@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰</title>
+    <link rel="stylesheet" href="css/shop.css">
+
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- 포털사이트에 노출되는 PC website 정보-->
+    <meta name="title" content="내꺼쇼핑몰">
+    <meta name="Author" content="내꺼">
+    <meta name="Keywords" content="품목, 품목, 품목">
+    <meta name="Description" content="쇼핑몰 설명">
+
+    <!--포털사이트에 노출되는 모바일 website 정보-->
+    <meta property="og:type" content="mobilesite">
+    <meta property="og:title" content="내꺼쇼핑몰" />
+    <meta property="og:description" content="무엇이든지 팔수 수 있는 기적의 샵" />
+    <meta property="og:image" content="images/m_logo.jpg"/> <!-- 800x400 -->
+
+    <!--폰트어썸-->
+    <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+
+
+    <!-- AOS 라이브러리 불러오기-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+    <script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
+
+
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="header_km">
+        <div class="header_top">
+            <div class="center_box">
+                <div class="member login_box">
+                    <a href="#">Login</a>
+                    <a href="#">Join</a>
+                    <a href="#">Customer Centor</a>
+                </div>
+                <!-- 로그아웃 -->
+                <div class="member logout_box">
+                    <a href="#">Login</a>
+                    <a href="#">Join</a>
+                    <a href="#">Customer Centor</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_middle">
+            <div class="center_box">
+                <h1><a href="#"><img src="images/logo.png" alt=""></a></h1>
+                <div class="search_wrap">
+                    <form action="" method="">
+                        <fieldset>
+                            <legend>검색창</legend>
+                            <input type="text" placeholder="검색어를 입력하세요">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header_bottom">
+            <div class="center_box">
+                <ul class="gnb">
+                    <li><a href="#">카테고리</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">아울렛</a></li>
+                    <li><a href="#">카달로그</a></li>
+                    <li><a href="#">고객리뷰</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="visual_main">
+        <div class="center_box">
+            <div class="text_box">
+                <em>VIENTO GLASS OVAL TABLE</em>
+                <strong>비엔토 글라스 오벌 테이블</strong>
+                <i>부드러운 라인의 오벌 쉐입으로 <br>
+                    함께있는공간에 편안한가치를 더해줍니다</i>
+                <span><a href="#none">Product info</a></span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="section_km">
+        <div id="section1">
+            <div class="center_box">
+                <div class="h_box">
+                    <h2>BEST <span>PRODUCTS</span></h2>
+                    <p>고객들이 선호하는 베스트 아이템을 확인하세요.</p>
+                </div>
+
+                <div class="prod_box">
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                    <ul data-aos="zoom-in">
+                        <li class="thumb">
+                            <a href="#">
+                                <img src="images/sec1_8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="tit"><a href="#">
+                            우디 삼나무 원목 책장/서랍장 시리즈</a>
+                        </li>
+                        <li class="price">69,900 
+                            <span><del>199.000원</del></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="section2">
+            <div class="center_box">
+                <div class="h_box">
+                    <h2>카테고리별 <span>상품</span></h2>
+                    <p>카테고리 선택으로 빠르게 원하는 제품을 찾아보세요.</p>
+                </div>
+
+                <div class="prod_slide">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_1.png" alt="">
+                                    <p>침대</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_2.png" alt="">
+                                    <p>매트리스</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_3.png" alt="">
+                                    <p>옷장</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_4.png" alt="">
+                                    <p>소파</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_5.png" alt="">
+                                    <p>거실가구</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_6.png" alt="">
+                                    <p>주방가구</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_7.png" alt="">
+                                    <p>서재</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#none">
+                                    <img src="images/sec2_8.png" alt="">
+                                    <p>소품</p>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        
+        
+        <div id="section3">
+            <div class="center_box">
+                <div class="h_box">
+                    <h2>MD <span>CHOICE</span></h2>
+                    <p>MD가 추천하는 상품을 만나보세요.</p>
+                </div>
+
+                <div class="md_box">
+                    <ul>
+                        <li class="md1">
+                            <a href="#none"><img src="images/sec3_1.jpg" alt=""></a>
+                            <h4>비크 WD 고무나무 원목 거실수납장</h4>
+                            <h5>갖고 싶은 거실 가구 비크 고무나무원목 수납장</h5>
+                        </li>
+                        <li class="md1">
+                            <a href="#none"><img src="images/sec3_2.jpg" alt=""></a>
+                            <h4>라인감이 살아있는 스타일리쉬한 주방가구 샤론</h4>
+                            <h5>세련된 라인과 컬러감이 돋보이는 주방가구</h5>
+                        </li>
+                        <li class="md1">
+                            <a href="#none"><img src="images/sec3_3.jpg" alt=""></a>
+                            <h4>우리집을 홈카페로 연출해주는 소피아식탁</h4>
+                            <h5>내추럴과 블랙이 어우러져 더욱 시크한 소피아</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="section4">
+            <!-- <a href="#none"><img src="images/sec4_banner.png" alt=""></a> -->
+            <div class="banner_box">
+                <em>온라인 리퍼브 마켓</em>
+                <strong>UP TO 70%</strong>
+                <i>다양한 제품을 할인된가격으로 만나보세요</i>
+                <a href="#none" class="click">Click</a>
+            </div>
+        </div>
+        
+        
+        <div id="section5">
+            <div class="center_box">
+                <div class="h_box">
+                    <h2>NEW <span>ARRIVALS</span></h2>
+                    <p>매일매일 업데이트되는 신상품을 확인하세요.</p>
+                </div>
+
+                <ul>
+                    <li class="new1">
+                        <a href="#none"><img src="images/sec5_1.jpg" alt=""></a>
+                        <a href="#none" class="new_bottom"><img src="images/sec5_2.jpg" alt=""></a>
+                    </li>
+                    <li class="new2">
+                        <a href="#none"><img src="images/sec5_3.jpg" alt=""></a>
+                    </li>
+                    <li class="new3">
+                        <a href="#none"><img src="images/sec5_4.jpg" alt=""></a>
+                        <a href="#none" class="new_bottom"><img src="images/sec5_5.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="footer_km">
+        <div class="center_box">
+            <div class="footer_top">
+                <a href="#none">
+                    HOME
+                </a>
+                <a href="#none">
+                    AGREEMENT
+                </a>
+                <a href="#none">
+                    개인정보취급방침
+                </a>
+                <a href="#none">
+                    GUIDE
+                </a>
+            </div>
+            
+            <ul class="footer_middle">
+                <li>
+                    <strong>CS CENTER</strong>
+                    <ul>
+                        <li>고객센터</li>
+                        <li>031-123-4567</li>
+                        <li>운영시간</li>
+                        <li>평일 10:00 ~ 19:00</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>COMPANY INFO</strong>
+                    <ul>
+                        <li>COMPANY</li>
+                        <li>주식회사 메리트앤코</li>
+                        <li>OWNER</li>
+                        <li>최은주</li>
+                        <li>C.P.O</li>
+                        <li>최호범</li>
+                        <li>E-mail</li>
+                        <li>ramerit@naver.com</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>BANK ACCOUNT</strong>
+                    <ul>
+                        <li>신한</li>
+                        <li>123-456-789789</li>
+                        <li>예금주</li>
+                        <li>메리트앤코 </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="footer_bottom">
+                Copyright 라메리트 All right reserved / design by MOSEN / Hosting by CAFE24
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script/jquery-3.6.1.min.js"></script>
+    <script src="script/jquery-ui.min.js"></script>
+
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- AOS 스크립트 시작 -->
+    <script> 
+        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+    </script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>
